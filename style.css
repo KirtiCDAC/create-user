@@ -48,7 +48,7 @@ form label{
 }
 table i{
     cursor: pointer;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     color: #422F5E;
 }
 .card nav li a{
