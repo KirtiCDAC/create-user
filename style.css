@@ -1,0 +1,56 @@
+.navbar {
+    background-color: #9272C0;
+}
+
+.navbar h3 {
+    color: #fff;
+    margin: auto;
+}
+
+.navbar img {
+    margin: -12%;
+    width: 90px;
+    height: auto;
+}
+
+
+
+footer {
+    /* left: 0; */
+    bottom: 0;
+    width: 100%;
+
+    /* min-height: 100vh ; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+footer p {
+    color: #9272C0;
+    font-size: 14px
+}
+form label{
+    font-weight: 700;
+}
+
+.card-header{
+    background-color: #422F5E !important;
+    color: white !important;
+    font-weight: 700 !important;
+    
+}
+
+.card-header i{
+    margin-left: auto;
+    cursor: pointer;
+}
+table i{
+    cursor: pointer;
+    margin-right: 15px;
+    color: #422F5E;
+}
+.card nav li a{
+    color: #422F5E !important;
+}
