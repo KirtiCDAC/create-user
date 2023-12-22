@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/a05bf41587.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="">
     <!-- NAVBAR -->
     <nav class="navbar">
         <div class="container-fluid">
@@ -25,166 +25,198 @@
 
     <!-- FORM -->
 
-    <div class="container py-5">
+    <div class=" container py-5">
 
         <div class="row">
-<div class="col-12">
-            <div class="card mb-4">
-                <div class="card-header h5 d-flex">
-                    <p>Create Users</p>
-                    <i class="fa-regular fa-circle-xmark  mt-2 "></i>
-                </div>
-                <div class="card-body">
-                    <form class="row g-3">
-                        <div class="col-md-6">
-                            <label for="empid" class="form-label">Employee ID</label>
-                            <input type="text" class="form-control" id="empid">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="empname" class="form-label">Employee Name</label>
-                            <input type="text" class="form-control" id="empname">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputCity" class="form-label">Contact</label>
-                            <input type="tel" class="form-control" id="inputCity">
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="inputPassword4" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputState" class="form-label">Designation</label>
-                            <select id="inputState" class="form-select">
-                                <option selected>-- Select Employee's Designation --</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="Role" class="form-label">Role</label>
-                            <select id="Role" class="form-select">
-                                <option selected>-- Select Employee's Role --</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="dept" class="form-label">Department</label>
-                            <select id="dept" class="form-select">
-                                <option selected>-- Select Employee's Department --</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="centre" class="form-label">Centre</label>
-                            <select id="centre" class="form-select">
-                                <option selected>-- Select Employee's Centre --</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button class="btn btn-success me-md-2" type="button">Submit</button>
-                            <button class="btn btn-secondary me-md-2" type="button">Clear</button>
-                            <button class="btn btn-danger" type="button">Close</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-
-            <div class="card">
-                <div class="card-header h5 d-flex">
-                    <p>Employees</p>
-                    <i class="fa-solid fa-user-plus mt-2"></i>
-                </div>
-                <div class="card-body">
-                    <div class="table-responsive">
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr class="text-center">
-                                    <th>S.No.</th>
-                                    <th>Employee ID</th>
-                                    <th>Employee Name</th>
-                                    <th>Designation</th>
-                                    <th>Department</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1.</td>
-                                    <td>111111</td>
-                                    <td>EmpName1</td>
-                                    <td>Project Engineer</td>
-                                    <td>STG</td>
-                                    <td>
-                                        <i class="fa-solid fa-user-pen" data-bs-toggle="tooltip"
-                                            title="Edit Profile"></i>
-                                        <i class="fa-solid fa-unlock" data-bs-toggle="tooltip"
-                                            title="Profile Activated"></i>
-                                        <i class="fa-solid fa-lock" data-bs-toggle="tooltip"
-                                            title="Profile Deactivated"></i>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2.</td>
-                                    <td>222222</td>
-                                    <td>EmpName2</td>
-                                    <td>Project Engineer</td>
-                                    <td>STG</td>
-                                    <td>
-                                        <i class="fa-solid fa-user-pen" data-bs-toggle="tooltip"
-                                            title="Edit Profile"></i>
-                                        <i class="fa-solid fa-unlock" data-bs-toggle="tooltip"
-                                            title="Profile Activated"></i>
-                                        <i class="fa-solid fa-lock" data-bs-toggle="tooltip"
-                                            title="Profile Deactivated"></i>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3.</td>
-                                    <td>333333</td>
-                                    <td>EmpName3</td>
-                                    <td>Project Engineer</td>
-                                    <td>STG</td>
-                                    <td>
-                                        <i class="fa-solid fa-user-pen" data-bs-toggle="tooltip"
-                                            title="Edit Profile"></i>
-                                        <i class="fa-solid fa-unlock" data-bs-toggle="tooltip"
-                                            title="Profile Activated"></i>
-                                        <i class="fa-solid fa-lock" data-bs-toggle="tooltip"
-                                            title="Profile Deactivated"></i>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <div class="col-12">
+                <div class="card mb-4">
+                    <div class="card-header h5 d-flex">
+                        <p>Create Users</p>
+                        <i class="fa-regular fa-circle-xmark  mt-1 "></i>
                     </div>
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination justify-content-end">
-                            <li class="page-item disabled">
-                                <a class="page-link">Previous</a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">Next</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <div class="card-body">
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <label for="empid" class="form-label">Employee Id</label>
+                                <input type="text" class="form-control" id="empid">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="empname" class="form-label">Employee Name</label>
+                                <input type="text" class="form-control" id="empname">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputCity" class="form-label">Contact</label>
+                                <input type="tel" class="form-control" id="inputCity">
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputState" class="form-label">Designation</label>
+                                <select id="inputState" class="form-select">
+                                    <option selected>-- Select Employee's Designation --</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="Role" class="form-label">Role</label>
+                                <select id="Role" class="form-select">
+                                    <option selected>-- Select Employee's Role --</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="dept" class="form-label">Department</label>
+                                <select id="dept" class="form-select">
+                                    <option selected>-- Select Employee's Department --</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="centre" class="form-label">Centre</label>
+                                <select id="centre" class="form-select">
+                                    <option selected>-- Select Employee's Centre --</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+
+                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn  me-md-2" style="background-color: #9272C0; color: #fff;"
+                                    type="button">Submit</button>
+                                <button class="btn btn-secondary me-md-2" type="button">Clear</button>
+                                <button class="btn btn-danger" type="button">Close</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header h5 d-flex">
+                        <p>Employees</p>
+                        <i class="fa-solid fa-user-plus mt-1"></i>
+                    </div>
+                    <div class="card-body">
+
+
+
+
+                        <div class="table-responsive ">
+                            <table class="table table-sm text-center table-bordered table-hover">
+                                <thead>
+                                    <tr class="text-nowrap">
+                                        <th>S.No.</th>
+                                        <th>Employee ID</th>
+                                        <th>Employee Name</th>
+                                        <th>Designation</th>
+                                        <th>Department</th>
+                                        <th>Action</th>
+                                     </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr >
+
+                                        <td>1.</td>
+                                        <td>111111</td>
+                                        <td>EmpName</td>
+                                        <td>Developer</td>
+                                        <td>STG</td>
+                                        <td class="text-nowrap">
+                                            <a class="btn btn-sm" target="_blank"
+                                                title="Edit Profile" >
+                                                <i class="fa-solid fa-user-pen"></i></a>
+
+                                            <a class="btn btn-sm" 
+                                                target="_blank" title="Profile Activated" >
+                                                <i class="fa-solid fa-unlock"></i></a>
+
+                                            <a class="btn btn-sm" 
+                                                target="_blank" title="Profile Deactivated">
+                                                <i class="fa-solid fa-lock "></i> </a>
+                                        </td>
+                                        
+
+
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                        <!--<div class="table-responsive">
+                            <table class="table table-bordered text-center" >
+                                <thead>
+                                    <tr class="">
+                                        <th>S.No.</th>
+                                        <th>Employee ID</th>
+                                        <th>Employee Name</th>
+                                        <th>Designation</th>
+                                        <th>Department</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                 <tbody>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>111111</td>
+                                        <td>EmpName1</td>
+                                        <td>Project Engineer</td>
+                                        <td>STG</td>
+                                        <td class="">
+                                            <i class="fa-solid fa-user-pen" data-bs-toggle="tooltip"
+                                                title="Edit Profile"></i>
+                                            <i class="fa-solid fa-unlock" data-bs-toggle="tooltip"
+                                                title="Profile Activated"></i>
+                                            <i class="fa-solid fa-lock" data-bs-toggle="tooltip"
+                                                title="Profile Deactivated"></i>
+                                        </td>
+                                    </tr>
+                                    
+                                </tbody> 
+                            </table>-->
+                    </div>
+
+
+
+
+                    <!-- <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-end">
+                                <li class="page-item disabled">
+                                    <a class="page-link">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav> -->
                 </div>
             </div>
-        </div>
+
+
+
+
+
+
+
 
         </div>
-        <!-- </div> -->
+
+    </div>
+    <!-- </div> -->
     </div>
     <!-- </div> -->
 

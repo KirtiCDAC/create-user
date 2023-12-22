@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .navbar {
     background-color: #9272C0;
 }
@@ -38,7 +42,8 @@ form label{
 .card-header{
     background-color: #422F5E !important;
     color: white !important;
-    font-weight: 700 !important;
+    /* font-weight: 700 !important; */
+    height: 42px;
     
 }
 
@@ -53,4 +58,7 @@ table i{
 }
 .card nav li a{
     color: #422F5E !important;
+}
+.table{
+    text-wrap: nowrap;
 }
