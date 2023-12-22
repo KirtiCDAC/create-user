@@ -51,14 +51,3 @@ form label{
     margin-left: auto;
     cursor: pointer;
 }
-table i{
-    cursor: pointer;
-    /* margin-right: 15px; */
-    color: #422F5E;
-}
-.card nav li a{
-    color: #422F5E !important;
-}
-.table{
-    text-wrap: nowrap;
-}
