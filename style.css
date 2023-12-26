@@ -28,12 +28,22 @@ footer {
     display: flex;
     flex-direction: column;
     position: relative;
-
+    background-color: #422F5E;
 }
 
 footer p {
     color: #9272C0;
     font-size: 14px
+}
+footer .underLine {
+    width: 60px;
+    background-color: #7c4dff;
+    height: 2px;
+}
+
+footer #bottomLine {
+    background-color: #7c4dff;
+    height: 2px;
 }
 form label{
     font-weight: 700;
@@ -50,4 +60,8 @@ form label{
 .card-header i{
     margin-left: auto;
     cursor: pointer;
+}
+
+#btnSub{
+    background-color: #9272C0; color: #fff;
 }
