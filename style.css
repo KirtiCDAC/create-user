@@ -17,7 +17,32 @@
     height: auto;
 }
 
+.navbar i{
+    color: #fff;
+    cursor: pointer;
+}
+.navbar .social-icons{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width: 768px) {
+    .navbar .container-fluid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar a{
+        text-align: center;
+    }
+    .navbar h3{
+        text-align: center;
+        margin-top: 10px;
+    }
 
+    .social-icons {
+        margin-top: 10px; 
+        text-align: center;
+    }
+}
 
 footer {
     /* left: 0; */
